@@ -10,10 +10,19 @@
 </head>
 
 <body>
+    <nav id="naV">
+        <a href="index.html">Home</a>
+        <a href="git.html">Git</a>
+        <a href="html.html">Html</a>
+        <a href="css.html">Css</a>
+    </nav>
     <main>
         <header>
             <h1>Grzegorz Staniewicz</h1>
         </header>
+        <section>
+            <img src="g.s.jpg" alt="Zdjecie Grzegorza" id="PhoGrz"/>
+        </section>
         <section>
             <h2>O mnie</h2>
             <article>
@@ -22,80 +31,9 @@
             </article>
             <article>
                 <h3>Co sie tutaj znajdzie?</h3>
-                <p>Projekt ten bedzie zapiskiem metod funkcji i narzedzi wykorzystywanych w trakcie nauki frontendu</p>
+                <p>Projekt ten bedzie zapiskiem metod funkcji i narzedzi wykorzystywanych w trakcie nauki frontendu <br> z podzialem na sekcje</p>
             </article>
         </section>
-        <section id="sekcjaPoradnik">                                   <!--GTI-->
-            <h2>Git</h2>
-            <article>
-                <h3>Podstawy gita wystarczajace do prostej komunikacji z repo</h3>
-                <p>
-                    Korzystamy z git bash, link do naszego repo to https://github.com/grrreg94/Front-Basic, Podstawowe
-                    komendy jakich na tym etapie uzywam to
-                </p>
-
-                <p><b>git init</b>, To polecenie zainicjuje lokalne repozytorium git</p>
-
-                <p><b>git status</b>, To polecenie powie Ci jakie zmiany zostały już zapisane przy pomocy narzędzia git,
-                    a jakie
-                    jeszcze nie.</p>
-
-                <p><b>git add plik.typ</b>, dodaje plik, <B>Musze sie dowiedziec dlaczego za kazda zmiana pliku index
-                        git chce abym dodal ten plik!</B></p>
-
-                <p><b>git commit -m"Komentarz"</b>, zapisz zmiany</p>
-
-                <p><b>git remote add origin link_to_your_remote_repository</b>, Ta komenda sprawi, że Twój lokalny git
-                    będzie
-                    wiedział gdzie znajduje się zdalne repozytorium</p>
-
-                <p><b>git push origin master</b>, Komenda ta spowoduje, że wszystkie zapisane zmiany znajdujące się na
-                    lokalnej
-                    gałęzi master zostaną wysłane na gałąź master na zdalnym repozytorium o nazwie origin.</p>
-
-                <p><b>git pull origin master</b>, To polecenie spowoduje, że wszystkie zmiany z gałęzi master ze
-                    zdalnego
-                    repozytorium o nazwie origin zostaną pobrane do Twojego lokalnego repozytorium na gałąź master.</p>
-            </article>
-        </section>
-        <section id="sekcjaPoradnik">                                   <!--HTML-->
-            <h2>HTML</h2>
-            <article>
-
-                <h3>Pierwsze narzedzia</h3>
-                <p><b>Head, Body</b>, podstawa szkieletu</p>
-                <p><b>Main</b>, znajduje sie w body</p>
-                <p>W mainie mamy <b>Header, Section, Footer</b></p>
-                <p><b>Header</b>, typy od <b>h1-h6</b></p>
-                <p>W <b>Section</b> umieszczamy <b>Article</b> orac <b>paragraf p</b>, sekcje moga tez byc
-                    identyfikowane przez <b>section id="nazwa"</b>, to mozna polaczyc z plikiem css na zasadzie klasy?
-                </p>
-                <p>Oczywiscie jest tez stopka czyli <b>Footer</b></p>
-                <h5>Pamietajmy, aby zamykac wszystkie klamry </h5>
-            </article>
-        </section>
-        <section id="sekcjaPoradnik">                                   <!--CSS-->
-            <h2>CSS</h2>
-            <article>
-
-                <h3>Pierwsze narzedzia</h3>
-                <p>Na poczatek tworzymy plik css, np style.css musimy pamietac aby zalaczyc go w pliku <b>HTML</b> w
-                    taki sposob <b>link href="style.css" rel="stylesheet" type="text/css"</b></p>
-                <p>Nauczylismy sie, ze w pliku css mozemy definiowac atrubuty sekcji, naglowkow itp, np: <b>body
-                        {background: rgb(208, 216, 218)}</b></p>
-                <p>czy <b> h2 {color: rgb(85, 79, 79)}</b></p>
-                <article>
-                    <p>Mozemy tez tworzyc cos na wzor klasy, nazwa klasy zaczyna sie po haszu # i odnosi sie do id
-                        komponentu, w klamrach opisujemy jej atrybuty</p>
-                    <p>#sekcjaPoradnik {</p>
-                    <p> background-color: rgb(219 231 239);</p>
-                    <p>}</p>
-                    <p> section id="sekcjaPoradnik" </p>
-                </article>
-
-            </article>
-        </section>
-
         <footer>
             <h3>Dziekuje</h3>
         </footer>

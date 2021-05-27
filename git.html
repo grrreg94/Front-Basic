@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav id="naV">
+        <a href="index.html">Home</a>
+        <a href="git.html">Git</a>
+        <a href="html.html">Html</a>
+        <a href="css.html">Css</a>
+    </nav>
+    <main>
+        <header>
+            <h1>GIT</h1>
+        </header>
+        <section id="sekcjaPoradnikGit">
+            <article>
+                <h3>Podstawy gita wystarczajace do prostej komunikacji z repo</h3>
+                <p>
+                    Korzystamy z git bash, link do naszego repo to https://github.com/grrreg94/Front-Basic, Podstawowe
+                    komendy jakich na tym etapie uzywam to
+                </p>
+
+                <p><b>git init</b>, To polecenie zainicjuje lokalne repozytorium git</p>
+
+                <p><b>git status</b>, To polecenie powie Ci jakie zmiany zostały już zapisane przy pomocy narzędzia git,
+                    a jakie
+                    jeszcze nie.</p>
+
+                <p><b>git add plik.typ</b>, dodaje plik, <B>Musze sie dowiedziec dlaczego za kazda zmiana pliku index
+                        git chce abym dodal ten plik!</B></p>
+
+                <p><b>git commit -m"Komentarz"</b>, zapisz zmiany</p>
+
+                <p><b>git remote add origin link_to_your_remote_repository</b>, Ta komenda sprawi, że Twój lokalny git
+                    będzie
+                    wiedział gdzie znajduje się zdalne repozytorium</p>
+
+                <p><b>git push origin master</b>, Komenda ta spowoduje, że wszystkie zapisane zmiany znajdujące się na
+                    lokalnej
+                    gałęzi master zostaną wysłane na gałąź master na zdalnym repozytorium o nazwie origin.</p>
+
+                <p><b>git pull origin master</b>, To polecenie spowoduje, że wszystkie zmiany z gałęzi master ze
+                    zdalnego
+                    repozytorium o nazwie origin zostaną pobrane do Twojego lokalnego repozytorium na gałąź master.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3 id="foo1">TBC</h3>
+    </footer>
+</body>
+
+</html>
