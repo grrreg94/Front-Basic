@@ -1,21 +1,16 @@
 body {background: rgb(208, 216, 218)}
-h1 {color: rgba(0, 0, 255, 0.541)}
-h1 {background: rgba(255, 255, 255, 0.541)}
+.h1 {
+    color: rgba(0, 0, 255, 0.541)
+}
+h1 {background: rgb(208, 216, 218)}
 
 h2 {color: rgb(85, 79, 79)}
 h3 {color: rgb(85, 79, 79)}
 p {color: rgb(85, 79, 79)}
 
-#sekcjaPoradnikGit {
+.sekcjaPoradnik {
     background-color: rgb(219 231 239);
 }
-#sekcjaPoradnikHtml {
-    background-color: rgb(219 231 239);
-}
-#sekcjaPoradnikCss {
-    background-color: rgb(219 231 239);
-}
-
 #foo1{
     color: blue;
 }
@@ -25,7 +20,11 @@ p {color: rgb(85, 79, 79)}
     height: 300px;
 }
 
-#naV{
+b{
+    color: rgb(10 33 146);
+}
+
+#naV a{
     background-color: #44b0da; 
     border: none;
     color: white;
